@@ -5,15 +5,17 @@ from django.db import models
 
 
 class UserProfile(AbstractUser):
-
+    SEX_MALE = 1
+    SEX_FEMALE = 2
+    SEX_UNKNOWN = 0
     SEX_ITEMS = [
-        (1, '男'),
-        (2, '女'),
-        (0, '未知'),
+        (SEX_MALE, '男'),
+        (SEX_FEMALE, '女'),
+        (SEX_UNKNOWN, '未知'),
     ]
     nick_name = models.CharField(max_length=50, verbose_name="昵称", default="")
     birthday = models.DateField(verbose_name=u"生日", null=True, blank=True)
-    gender = models.IntegerField(choices=SEX_ITEMS, verbose_name='性别')
+    gender = models.IntegerField(choices=SEX_ITEMS, verbose_name='性别', default=SEX_FEMALE)
     address = models.CharField(max_length=100, default="")
     mobile = models.CharField(max_length=11, null=True, blank=True)
     image = models.ImageField(upload_to="image/%Y/%m", default="image/default.png", max_length=100)
