@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed33fbca-e565-47ea-a96d-b7e9d4d9de0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/migrations/0002_banner_emailverifyrecord.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/migrations/0003_auto_20190512_1522.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/migrations/0004_auto_20190512_1522.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/course_online/users/models.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/__init__.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/admin.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/apps.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/apps.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/migrations/0001_initial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/migrations/__init__.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/tests.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/course_online/users/views.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/course_online.iml" afterPath="$PROJECT_DIR$/.idea/course_online.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/settings.py" afterPath="$PROJECT_DIR$/course_online/course_online/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +53,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="192">
+              <caret line="41" column="5" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/organization/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/operation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="e#317#326#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>u&quot;</find>
+      <find>u'</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +139,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/course_online/users/models.py" />
+        <option value="$PROJECT_DIR$/course_online/organization/models.py" />
+        <option value="$PROJECT_DIR$/course_online/operation/models.py" />
+        <option value="$PROJECT_DIR$/course_online/courses/models.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/settings.py" />
       </list>
     </option>
   </component>
@@ -45,9 +154,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="482" />
+    <option name="x" value="581" />
     <option name="y" value="23" />
-    <option name="width" value="1198" />
+    <option name="width" value="1099" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,6 +189,19 @@
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="course_online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course_online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -92,6 +214,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/course_online/course_online/apps" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -103,6 +230,53 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Django server.course_online">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/p2penv/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_online" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration name="course_online" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="course_online.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/p2penv/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="course_online" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8005" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -118,20 +292,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="482" y="23" width="1198" height="1027" extended-state="0" />
+    <frame x="581" y="23" width="1099" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@course_online" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2214533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21566524" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20719016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -159,6 +333,56 @@
         <state relative-caret-position="18">
           <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#317#326#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
