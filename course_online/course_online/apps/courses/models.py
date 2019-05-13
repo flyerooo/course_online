@@ -33,6 +33,32 @@ class Course(models.Model):
     def __str__(self):
         return self.name
 
+    def get_zj_nums(self):
+        # 获取课程章节数
+        return self.lesson_set.all().count()
+
+    get_zj_nums.short_description = "章节数"
+
+    def go_to(self):
+        from django.utils.safestring import mark_safe
+        return mark_safe("<a href='http://www.projectsedu.com'>跳转</>")
+
+    go_to.short_description = "跳转"
+
+    def get_learn_users(self):
+        return self.usercourse_set.all()[:5]
+
+    def get_course_lesson(self):
+        # 获取课程所有章节
+        return self.lesson_set.all()
+
+
+class BannerCourse(Course):
+    class Meta:
+        verbose_name = "轮播课程"
+        verbose_name_plural = verbose_name
+        proxy = True
+
 
 class Lesson(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, verbose_name="课程")
@@ -46,7 +72,11 @@ class Lesson(models.Model):
 
     def __str__(self):
         return self.name
-    
+
+    def get_lesson_video(self):
+        # 获取章节视频
+        return self.video_set.all()
+
 
 class Video(models.Model):
     lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE, verbose_name="章节")
@@ -61,3 +91,14 @@ class Video(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class CourseResource(models.Model):
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, verbose_name=u"课程")
+    name = models.CharField(max_length=100, verbose_name=u"名称")
+    download = models.FileField(upload_to="course/resource/%Y/%m", verbose_name=u"资源文件", max_length=100)
+    add_time = models.DateTimeField(default=datetime.now, verbose_name=u"添加时间")
+
+    class Meta:
+        verbose_name = u"课程资源"
+        verbose_name_plural = verbose_name

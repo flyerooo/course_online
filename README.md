@@ -7,3 +7,6 @@ sys.path.insert(1, os.path.join(BASE_DIR, 'extra_apps'))
 (xadmin所需的依赖要装上，可以先pip install xadmin，再pip uninstall xadmin，这样那些依赖包就装好了)
 pip install future six 
 pip install  django_import_export
+
+xadmin的主题use_bootswatch = True”无效解决方法
+https://www.cnblogs.com/onlyhold/p/8017662.html

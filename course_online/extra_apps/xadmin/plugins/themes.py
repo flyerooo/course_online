@@ -74,8 +74,8 @@ class ThemePlugin(BaseAdminPlugin):
                     headers = {"Accept": "application/json", "User-Agent": self.request.META['HTTP_USER_AGENT']}
                     content = requests.get("https://bootswatch.com/api/3.json", headers=headers)
                     if six.PY3:
-                        content = content.text.decode()
-                    watch_themes = json.loads(content.text)['themes']
+                        content = content.text
+                    watch_themes = json.loads(content)['themes']
                     ex_themes.extend([{'name': t['name'], 'description': t['description'], 'css': t['cssMin'],
                                        'thumbnail': t['thumbnail']} for t in watch_themes])
                 except Exception as e:
