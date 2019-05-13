@@ -44,7 +44,7 @@ class BaseSetting(object):
 class GlobalSettings(object):
     site_title = "后台管理系统"
     site_footer = "在线教育"
-    # menu_style = "accordion"
+    menu_style = "accordion"
 
 
 class EmailVerifyRecordAdmin(object):

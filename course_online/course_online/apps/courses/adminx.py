@@ -8,9 +8,11 @@ class LessonInline(object):
     model = Lesson
     extra = 0
 
+
 class CourseResourceInline(object):
     model = CourseResource
     extra = 0
+
 
 class CourseAdmin(object):
     list_display = ['name', 'desc', 'detail', 'degree', 'learn_times', 'students', 'get_zj_nums', 'go_to']
@@ -21,7 +23,7 @@ class CourseAdmin(object):
     list_editable = ['degree', 'desc']
     exclude = ['fav_nums']
     inlines = [LessonInline, CourseResourceInline]
-    style_fields = {"detail":"ueditor"}
+    style_fields = {"detail": "ueditor"}
     import_excel = True
 
     def queryset(self):
@@ -30,7 +32,7 @@ class CourseAdmin(object):
         return qs
 
     def save_models(self):
-        #在保存课程的时候统计课程机构的课程数
+        # 在保存课程的时候统计课程机构的课程数
         obj = self.new_obj
         obj.save()
         if obj.course_org is not None:
@@ -38,11 +40,10 @@ class CourseAdmin(object):
             course_org.course_nums = Course.objects.filter(course_org=course_org).count()
             course_org.save()
 
-
     def post(self, request, *args, **kwargs):
         if 'excel' in request.FILES:
             pass
-        #return super(CourseAdmin, self).post(request, args, kwargs)
+        # return super(CourseAdmin, self).post(request, args, kwargs)
         return super(CourseAdmin, self).post(request, kwargs)
 
 

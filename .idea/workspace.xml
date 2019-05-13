@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed33fbca-e565-47ea-a96d-b7e9d4d9de0c" name="Default" comment="安装xadmin">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/adminx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/adminx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py" />
+    <list default="true" id="ed33fbca-e565-47ea-a96d-b7e9d4d9de0c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/courses/models.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/users/models.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/themes.py" afterPath="$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/themes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/courses/__init__.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/courses/apps.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/courses/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/operation/__init__.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/operation/apps.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/operation/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/organization/__init__.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/organization/apps.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/organization/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/users/__init__.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course_online/course_online/apps/users/apps.py" afterPath="$PROJECT_DIR$/course_online/course_online/apps/users/apps.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,10 +38,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -47,26 +49,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="198">
-                <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="themes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/themes.py">
+      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+            <state relative-caret-position="219">
+              <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding>
-                <element signature="e#14#51#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,14 +99,22 @@
         <option value="$PROJECT_DIR$/course_online/manage.py" />
         <option value="$PROJECT_DIR$/course_online/course_online/settings.py" />
         <option value="$PROJECT_DIR$/course_online/extra_apps/xadmin/util.py" />
-        <option value="$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py" />
-        <option value="$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py" />
         <option value="$PROJECT_DIR$/course_online/course_online/apps/operation/adminx.py" />
         <option value="$PROJECT_DIR$/course_online/course_online/apps/organization/adminx.py" />
         <option value="$PROJECT_DIR$/course_online/course_online/apps/users/models.py" />
         <option value="$PROJECT_DIR$/course_online/course_online/apps/courses/models.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/themes.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/courses/apps.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/operation/apps.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/users/apps.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/organization/apps.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/organization/__init__.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/courses/__init__.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/operation/__init__.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/users/__init__.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py" />
+        <option value="$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py" />
       </list>
     </option>
   </component>
@@ -167,22 +164,30 @@
               <item name="course_online" type="b2602c69:ProjectViewProjectNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course_online" type="b2602c69:ProjectViewProjectNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course_online" type="b2602c69:ProjectViewProjectNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
               <item name="course_online" type="462c0819:PsiDirectoryNode" />
-              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course_online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="course_online" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -287,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557769459564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置xadmin">
+      <created>1557772291415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557772291415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,7 +313,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42596567" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2296544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2295964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -325,7 +337,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加apps 和 model" />
     <MESSAGE value="安装xadmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装xadmin" />
+    <MESSAGE value="配置xadmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置xadmin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -414,16 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/operation/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -484,16 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -505,12 +498,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/wizard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course_online/extra_apps/xadmin/plugins/themes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+        <state relative-caret-position="186">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
           <folding>
             <element signature="e#14#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/operation/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/organization/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="true" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/operation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="true" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/organization/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="true" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/courses/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_online/course_online/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
