@@ -27,7 +27,9 @@ SECRET_KEY = 'wr=-t!yu+w@hz)85$yv7v8i!fex!^z0g96ketj58o9!n-jdjpd'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBackend',
+)
 
 # Application definition
 

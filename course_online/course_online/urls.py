@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 import xadmin
 
-from users.views import login
+from users.views import user_login
+from users.views import LoginView
 
 
 urlpatterns = [
@@ -26,5 +27,6 @@ urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),  # root p2pdev_root
 
     url('^$', TemplateView.as_view(template_name='index.html'), name='index'),
-    url('^login/$', login, name='login'),
+    url('^login/$', user_login, name='login'),
+    url('^class_login/$', LoginView.as_view(), name='class_login'),
 ]
